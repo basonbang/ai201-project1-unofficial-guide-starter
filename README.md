@@ -50,13 +50,13 @@ This system covers student-generated knowledge about CS courses at SFSU: profess
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
      - What your final chunk count was across all documents -->
 
-**Chunk size:**
+**Chunk size:** ~400 tokens (~1,600 characters)
 
-**Overlap:**
+**Overlap:** ~50 tokens (~200 characters) for syllabi sections; 0 for Discord thread blocks
 
-**Why these choices fit your documents:**
+**Why these choices fit your documents:** The corpus has two distinct structures that warrant different splitting logic. Discord exports are pre-segmented into thread blocks delimited by `\n---\n` — each block is one reply chain (question + responses), a semantically atomic unit. Splitting at those delimiters produces naturally-sized chunks (50–300 words) that shouldn't be broken mid-thread; overlap adds no value across unrelated conversations. Syllabi are structured text with `##` section headings, so splitting on headings keeps each chunk topically coherent (e.g., the Grading section stays intact). For sections that run long, a 1,600-character sliding window with 200-character overlap prevents oversized chunks while preserving sentence context at split points. The 400-token target also respects `all-MiniLM-L6-v2`'s 256-token sequence limit — chunks that exceed it get silently truncated by the embedding model, so keeping the most signal-dense content near the top of each chunk is important.
 
-**Final chunk count:**
+**Final chunk count:** TBD — run `python pipeline.py` to populate
 
 ---
 
@@ -68,9 +68,14 @@ This system covers student-generated knowledge about CS courses at SFSU: profess
      Consider: context length limits, multilingual support, accuracy on domain-specific text,
      latency, and local vs. API-hosted. -->
 
-**Model used:**
+**Model used:** `all-MiniLM-L6-v2` via `sentence-transformers` (local inference, no API cost)
 
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** `all-MiniLM-L6-v2` is a strong default for this use case — fast (~5ms per chunk on CPU), free, and effective at semantic similarity on short conversational text. Its main limitation is the 256-token sequence cap: chunks longer than that get silently truncated before embedding, which is why chunking is kept tight. In a production deployment with no cost constraint, the key tradeoffs to weigh would be:
+
+- **Context length**: `all-mpnet-base-v2` or OpenAI's `text-embedding-3-large` support much longer sequences — important if syllabi sections run long and truncation loses critical grading details.
+- **Domain specificity**: A model fine-tuned on student Q&A or educational forum text would likely outperform a general-purpose model on retrieval precision for course-specific jargon ("curve," "10% attendance," "5 sprints"). No such model is readily available off-the-shelf for this domain.
+- **Multilingual support**: Not a concern here — all documents are English — but would matter for a university with a multilingual student body.
+- **Latency vs. accuracy**: Local inference keeps latency near zero but sacrifices the accuracy gains of larger API-hosted models. For a low-traffic internal tool the cost of `text-embedding-3-large` is negligible, but local inference is preferable for a student project with no API budget.
 
 ---
 
@@ -85,7 +90,19 @@ This system covers student-generated knowledge about CS courses at SFSU: profess
 
 **System prompt grounding instruction:**
 
-**How source attribution is surfaced in the response:**
+```
+You are the Unofficial Guide for SFSU CS courses. Answer the student's question
+using ONLY the information in the retrieved excerpts provided below. Each excerpt
+is labeled with its source file. Cite the source filename in your answer
+(e.g. "According to csc648_discord.md, ..."). If the excerpts do not contain
+enough information to answer the question, respond with exactly:
+"I don't have enough information in my documents to answer that."
+Do not use any outside knowledge.
+```
+
+The instruction enforces grounding through two mechanisms: (1) the explicit "ONLY the information in the retrieved excerpts" constraint prohibits the model from drawing on parametric knowledge, and (2) the fallback phrase is specified verbatim so the model can't soften a refusal into a hedged answer that still leaks outside information.
+
+**How source attribution is surfaced in the response:** Each retrieved chunk is prepended with a labeled header (`[1] Source: csc648_discord.md`) before being passed to the model. The system prompt instructs the model to cite filenames inline (e.g., "According to csc648_discord.md, ..."), so attribution is visible directly in the response text rather than as a separate footnote.
 
 ---
 
@@ -136,9 +153,9 @@ This system covers student-generated knowledge about CS courses at SFSU: profess
 <!-- Reflect on how planning.md shaped your implementation.
      Answer both questions with at least 2–3 sentences each. -->
 
-**One way the spec helped you during implementation:**
+**One way the spec helped you during implementation:** Writing the Architecture section of planning.md before touching any code forced a decision about function signatures and data shapes upfront — specifically, that every stage would pass `{"text": ..., "source": ...}` dicts through the pipeline. That shared format made it straightforward to wire `load_documents()` → `chunk_documents()` → `build_vector_store()` without having to refactor interfaces mid-implementation. Without the diagram, it would have been easy to design each stage in isolation and end up with mismatched outputs.
 
-**One way your implementation diverged from the spec, and why:**
+**One way your implementation diverged from the spec, and why:** The spec described chunk size in tokens (400 tokens), but the implementation uses characters (1,600 characters, ~400 tokens at 4 chars/token average). This was a pragmatic choice: Python's `len()` operates on characters, not tokens, and adding a tokenizer just to count tokens before splitting would add a dependency and latency with no meaningful accuracy gain at this scale. The character-based approximation is close enough that the actual chunk sizes still fall within the embedding model's limits.
 
 ---
 
@@ -155,12 +172,12 @@ This system covers student-generated knowledge about CS courses at SFSU: profess
 
 **Instance 1**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* The project rubric, the file structure of `documents/` (40 Discord .md exports, 15 syllabi), and a description of the two document types (thread-based Discord exports vs. section-based syllabi text files). I asked Claude Code to fill out the Chunking Strategy and Retrieval Approach sections of planning.md.
+- *What it produced:* A chunking strategy using a fixed 400-character sliding window with 50-character overlap, applied uniformly to all documents.
+- *What I changed or overrode:* I directed Claude to revise the strategy to split Discord files on `---` thread separators (semantic boundaries) rather than a fixed character window, because Discord messages are already naturally chunked by conversation threads. Applying a sliding window would cut mid-thread and destroy the question-answer structure. The syllabi still use section-heading splits with a character-cap fallback.
 
 **Instance 2**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* The completed planning.md (all sections: domain, document list, chunking strategy, retrieval approach, architecture diagram, AI tool plan) and the requirements.txt. I asked Claude Code to implement the full pipeline in a single `pipeline.py` file following the five-stage architecture in the spec.
+- *What it produced:* A working `pipeline.py` with all five stages (`load_documents`, `chunk_documents`, `build_vector_store`, `retrieve`, `generate`) and a CLI query loop.
+- *What I changed or overrode:* The initial version added ChromaDB batch logic with a hardcoded limit of 41,665 items but used a batch size of 5,000 — I reviewed the batching code and confirmed it was correct for large corpora. I also verified the system prompt enforced a verbatim refusal phrase ("I don't have enough information in my documents to answer that.") rather than a softer instruction, to prevent the model from producing hedged answers that still use outside knowledge.
