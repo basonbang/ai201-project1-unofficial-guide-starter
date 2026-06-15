@@ -1,0 +1,182 @@
+Course Information
+Course Number	CSC 648-848
+Course Name	SOFTWARE ENGINEERING/ADVANCED SOFTWARE
+Number of Units	3
+Prerequisite	None
+Schedule	2.5 hours a week of lecture/discussion
+Course Description
+Practical methods and tools for SW Engineering, including organizational teamwork. Course is paired with CSC 848. Students who have completed CSC 848 may not take CSC 648 for credit.
+
+Expanded Description
+Introduction and motivation for Software Engineering(SE)
+Overview of several basic SE methodologies with emphasis on Iterative and Incremental Development and User Centered Design
+Usability and UI design principles and practice
+Usability evaluation
+Basic components of SW Engineering process: Planning; Requirements and Specifications; Iterative Design, Rapid Prototyping, Mockups; Software Design; Coding and documentation techniques (high level only);
+SW Engineering related to Web application development
+Open source SW development and management
+SW Engineering using GenAI tools
+Software Configuration Management, Code management, Delivery, Installation, and Documentation
+Software Metrics, and Usability Measurements and evaluation
+Software QA and Testing
+Software Maintenance
+Project Management issues
+Teamwork and Communication as integral part of SW Engineering
+Issues related to global SW engineering
+Real life examples and cases from instructor and students
+Guest and student presentations
+Final Team Project including several milestones, interaction with instructor, and final demo and delivery.
+Course Objectives and Role in Program
+This is a capstone course and paired class with graduate version CSC 848 where students integrate and apply all the knowledge they attained in the program. It offers comprehensive and advanced coverage of practical team-oriented methods and tools of full lifecycle SW development. Special emphasis will be on Iterative, Incremental, Agile and User Centered Design team practices and on global SW engineering. Cornerstone of the class is student team project (in teams of 6-7 students) where students engage in a team project in order to experience and practice key aspects of full SW engineering lifecycle in setting that simulates small SW company. Class teaching is coordinated with student team project needs
+
+Learning Objectives
+By the end of this course, students will be able to do the following:
+
+Knowledge of modern Agile SE engineering methods/processes and best practices for team-centric SW development, and their appropriate application
+Knowledge of basic components and tools for team-centric full lifecycle SW development from use cases and initial specifications to design, implementation, testing, evaluation as well as code management and deployment on cloud systems
+Knowledge of best practices for the design, implementation and evaluation for delivering easy to use and maintainable SW
+Ability to constantly iterate and re-prioritize plans and designs based on user needs, budget, schedule and resources
+Development of significant SE teamwork and project based experience, as close as possible to real life
+Use of GenAI tools in SW Engineering
+Suggest Evaluation
+Item/Activity	Item Weight
+Final Exam - (multiple choice questions testing basic knowledge of SW Engineering concepts and definitions)	40%
+Final Team Project - (Design and development of a SW application by student teams via 6 milestone assignment M0-M5, M0 carries 10%)	60%
+Graduate students may have to do a class presentation to get graduate credit for 848.
+
+Scale
+Letter Grade	Grade Break Point
+A	≥ 94%
+A-	≥ 90%
+B+	≥ 85%
+B	≥ 80
+C+	≥ 75%
+C	≥ 70%
+D+	≥ 65%
+D	≥ 60%
+F	< 60
+Suggested Textbook
+Suggested (not mandatory) textbook Ian Somerville: "Software Engineering", 10th edition, Addison Wesley ISBN-13: 978-0133943030
+
+Course Exams
+There will be no midterm exam for this course. There will be a final exam that will be taken during the last lecture time slot (1 week before finals)
+
+Final Team Project
+Objective
+By working on developing a SW application in a team setting, students will experience and exercise all steps in full SW Engineering lifecycle simulating real SW company environment. All teams will work on the same application, usually a tree tier media rich WWW application which will be initiated by the instructor in the form of only a very brief description, to force the teams to engage in full cycle of SW development - from initial design to delivery.
+
+Organization
+Students will work in teams of 6-7. Teams will be selected by instructor based on mandatory student skills and experience survey (used only for team building) to build teams with approximately equal skills and experience profile. Each team will have team lead, front end lead, back-end lead and GitHub master. In some cases, if possible, we will simulate global SW engineering environment by including teams from other universities, currently from Fulda University in Germany. Instructors will serve as coaches, VP of Engineering, Marketing and Customer representative as well as CTO, and will attempt to create environment that simulates real life SW company. Interaction with instructor will evolve around key SW Engineering process milestones (e.g. infrastructure selection and setting; high level design; detailed design (UI and system); implementation, testing and evaluation; and final delivery) and will include extensive instructor feedback, walkthrough sessions and discussion, as well as usability feedback. Instructors will in general not get involved nor help in details of coding and implementation; this will be the responsibility of the students and the team.
+
+SW tools and IT environment
+Basic SW tools and environment will be provided using Open-Source SW and cloud systems for deployment. Students will have some choice in deciding specific SW stack and cloud systems from a set recommended by instructors (first team milestone). All SW and tools as well as cloud servers for deployment will be open source and free. GenAI tool like ChatGPT will be integrated in SW development lifecycle, as per class polices
+
+Deliverables
+These include a) Final documents from all the required milestones from the team project (after instructors’ feedback has been incorporated), b) code and code management repository (e.g. GitHub; and c) demo of the final product to the whole class. These materials can also serve as student portfolio for job search
+
+Grading Policy
+All team members get the same grade except the team members who do not participate as required. Team grade is based on SE Process component (adherence to best practices of team-centric SW engineering) and SW Product component (quality of team SW deliverable). Grading of submitted documentation will be based only on final document versions; instructor’s feedback during the process will not be graded but serve as help and guidance and encouragement for design iterations.
+
+Full participation in all team activities and attendance of all team sessions is mandatory. Students are expected to read and respond as necessary to all class related e-mails from the instructor and their team members in a timely manner. Full student participation and engagement in team project will be checked regularly in team meetings with instructor, instructor’s communication with team leads as well as by checking activity in code management systems like GitHub. In case of inadequate student participation that student team grade (but not the team grade of other students in the team) shall be reduced for minimum 10%.
+
+All other mandatory class policies (including those related pot on-line class delivery if applicable) will be introduced in the class in introductory slides.
+
+Computer Science Lab
+Computer Science lab in Creative Arts CA - 128. You will need an access code to get in. The current access code is 92345#. Contact the CS department (TH 906) if you have trouble gaining access to the room.
+
+Class Website
+CanvasLinks to an external site. will be our course website.
+
+Class Discord Server
+This class will use a Discord server for its out-of-class communication. The server is dedicated to this course only. To join you will need to complete the following steps:
+
+Click the invite link on Canvas to join the classes discord server. [Link can be found here]
+You will need a Discord account that has a verified email. You DO NOT need to use your school email. If you already have a Discord account this can be used as well
+Once you have joined the server, you will send a direct message (a dm ) to the roster bot. The message MUST have the following format:
+                              !reg csc648 schoolemail
+   You are REQUIRED to use your school email. No other email will be accepted. This does   NOT mean your discord account has to be created with your school email.
+
+If you use the above command correctly (and the bot works) you will then be assigned the role of Student.
+Once you have obtained the role of student you have completed joining and registering for the class discord.
+Attendance
+You are expected to attend all class sessions to the best of your ability, and you are responsible for all material covered in class. Not all topics or examples we do or discuss in class are in the course's textbook. You must make plans with your classmates to get copies of lecture notes and topics covered for the classes you missed. Not all lectures have slides or notes.
+
+Class Policies
+Late Submission Policy
+The deadlines for the assignments have been set as generously as possible. I understand that workloads will change in this class and other classes you are taking. Therefore, the late for assignments is as follows:
+
+there are no late submisssions
+* Extensions can be granted to teams, in certain situations but this needs to be initiated/dicussed with instructure at least 24-hours prior to due date.
+
+Appealing Grades:
+Appearing grades can be done during the next team meeting in class. Here the instructor and Team can disucss points lost and their justification.
+
+Safe Environment Policy
+We are all responsible for contributing to our own learning as well as the learning experiences of others. Thus, our expectation is that we will maintain an environment where everyone feels safe discussing, examining, and responding to the content of the course. We strongly affirm the value of diversity of human lives as an enrichment of the learning community. The classes will be a mutually respectful, collaborative learning environment so any sort of discrimination or harassment with reference to race, sex, gender identity, ethnicity, or ability cannot be tolerated. Please bring any violation of this policy to my attention as soon as possible.
+
+Academic Cheating
+Cheating and plagiarism are very serious offenses and are treated as such. Please see CS PlagiarismLinks to an external site.
+
+PolicyLinks to an external site. for department policies on cheating and plagiarism. Cheating or plagiarizing can result in a
+
+failing grade in the course and/or expulsion from school
+
+Discord Server
+This class will use a Discord server for all of its out-of-class communication. You are expected to join AND be active on this server. Failure to join the class discord server will result in losing all of your participation score.
+
+Joining the Discord Server
+To join you will need to complete the following steps:
+
+Click the following Invitation LinkLinks to an external site. to join the class Discord Server.
+You will need a Discord account that has a verified email. You DO NOT need to use your school email. If you already have a Discord account this can be used as well
+Once you have joined the server, you will send a direct message (a dm ) to the roster-bot. The message MUST have the following format:
+
+    !reg csc648 schoolemail
+            
+You are REQUIRED to use your school email. No other email will be accepted. This does NOT mean your discord account has to be created with your school email
+
+If you use the above command correctly (and the bot works) you will then be assigned the role of Student.
+Note: Each student is required to join the Discord Server by Sunday, February 9th, 2025 @ 11: 59PM. Failure to register with the Discord bot by the posted due date will result in losing points on your SE Process score.
+GitHub
+Filling Out GitHub Username Form
+Please fill out the following Form: GitHub Username FormLinks to an external site.
+If you do not have an account, please make one at GitHubLinks to an external site.
+This form MUST be completed by Sunday, February 9th, 2025 at 11: 59 PM
+FAILURE TO FILL OUT THIS FORM WILL INCREASE YOUR CHANCES OF BEING DROPPED FROM THE COURSE.
+Drop Status Checker
+You may use the following link: Course Drop Status TrackerLinks to an external site. to check your status ID you will be dropped from the course. The goal is to make sure you have all green checkmarks by the end of the week (2/9/2025). Any students who do not will be dropped from the course. In addition, you may also be dropped from the course for the following reasons:
+
+If you do not log into Canvas during the first week
+Do not complete the assignments,
+Miss the first week of school unless otherwise excused.
+
+Background Reading
+Item Name	Item Link
+CSC 648-848 Course Syllabus	Link
+What Makes a Great Software Engineer (ACM Slides)	LinkDownload Link
+Important Skills for SW Engineer	LinkDownload Link
+Prof. Petkovic's tips for job search, resume prep, and interviews	LinkDownload Link
+Course Materials - Lecture Slides
+Item Name	Item Link
+CSC 648-848 Spring 2025 Class Intro Official Class Policies and Grading	LinkDownload Link
+CSC 648 848 Spring 2025 Teamwork	LinkDownload Link
+CSC 648 848 Spring 2025 ChatGPT and SE	LinkDownload Link
+CSC 648 848 Spring 2025 Coding Style and Practices	LinkDownload Link
+CSC 648 848 Spring 2025 Architecture Patterns and Search Architecture	LinkDownload Link
+CSC 648 848 Spring 2025 Class Use Cases Req Specs	LinkDownload Link
+CSC 648 848 Spring 2025 User Centered Design Usability GUI Design testing	LinkDownload Link
+CSC 648 848 Spring 2025 Software Project Management Ethics IP	LinkDownload Link
+CSC 648 848 Spring 2025 Software Engineering Processes	LinkDownload Link
+CSC 648 848 Spring 2025 SW QA	LinkDownload Link
+CSC 648 848 Spring 2025   Usability Testing and Focus Groups	LinkDownload Link
+Team Project Materials
+Item Name	Item Link
+About Team Project 	LinkDownload Link
+Tasks for the first team meeting	LinkDownload Link
+Milestone 0 Instructions	Link
+Initial High-Level Description of Student Team Project Requirements	LinkDownload Link
+Milestone 1 Instructions	Link
+Milestone 2 Instructions	Link
+Good Homepage Exams from Dr. Petkovic	LinkDownload Link
+Milestone 3 Instructions	Link
+Milestone 4 Instructions

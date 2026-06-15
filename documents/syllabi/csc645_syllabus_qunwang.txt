@@ -1,0 +1,138 @@
+Course Syllabus
+Jump to Today
+Instructor:                            Qun Wang
+
+Office Hours:                       Thursday, 13:00-14:00 (Zoom)
+
+Email:                                    qunwang@sfsu.edu
+
+ 
+
+Pre-requisite:                       Grades of C or better in CSC 415
+
+Textbook:                             Computer Networking: A Top-Down Approach, 8th Edition or later version
+
+                                               James F. Kurose and Keith W. Ross
+
+ 
+
+Course Description
+Computer networks, ranging from wired Ethernet to wireless cellular networks, have become an essential part of modern human life, which are also the enabling technologies for companies such as Google, Facebook, and Amazon. This course introduces the fundamental principles and methods on design and implementation of computer networks and network protocols. Topics covered in this course include TCP/IP Protocol Stack, Packet Switching, Reliable Data Transfer, Congestion Control, Routing, Multiple Access Control, Internet Protocols (HTTP, SMTP, TCP, UDP, IP, RIP, OSPF, BGP), Socket Programming, and other emerging topics.
+
+ 
+
+Learning Outcomes
+At the end of this course, students will
+
+Have basic knowledge on how to design, analyze, and implement computer networks
+Gain hands-on experience in network programming and network troubleshooting tools
+ 
+
+Course Expectations
+The students are expected to attend every class, actively and constructively participate in class discussions, do the readings assigned for class, and complete all homework and project assignments on time.
+
+ 
+
+Grading
+The grading policy is as follows:
+
+10% Attendance and Class Participation
+20% Homework Assignments
+20% Labs
+20% Midterm Exam
+30% Final Exam
+ 
+
+At the end of the semester, each student will receive a final score out of 100, which will then be converted to a letter grade.
+
+ 
+
+Assignments
+There will be four homework assignments and two lab assignments in this course. Students are allowed to make late submission within 48 hours of an assignment deadline, for 75% of the credits. Submissions later than that will not be accepted, and it will result in a zero for that assignment.
+
+ 
+
+Exams
+The course has one final exam. Students will be responsible for material covered both in the readings and in the lectures. Attendance is therefore recommended as not all class discussions will be covered in the text. If you are unable to attend the final exam, you MUST contact the instructor at least one week before the exam. If you have acceptable and documented excuses, you may be given a make-up exam. Any other exam absence will result in a zero for that grade.
+
+ 
+
+Academic Integrity Policy
+Cheating and plagiarism are serious violations of the academic code of conduct. Students who have been found to be cheating will be notified by the professor. Furthermore, their act will be reported to the Office of Student Conduct (OSC). Please consult the departmental policy on plagiarism/cheating at http://cs.sfsu.edu/plagarism.html.Links to an external site.
+
+Students are not allowed to share their homework solutions or any work with other students, unless permission from the instructor is given. Submitting someone else's work as your own is considered cheating. Letting someone else submit your work as her/his own is also considered cheating, and will be treated equally.
+
+ 
+
+If you wrote your code on your own, you must be able to explain its details. If you are unable
+
+ 
+
+to explain the details of code that you turned in, I consider this a strong indication that you did not write the code on your own; in that case, I have the option of giving you a zero on that assignment, and reporting the incident to the department chair.
+
+Depending on the seriousness of the offense, students caught cheating could be assigned an "F" in the course, or be expelled from school.
+
+
+Course Summary:
+Course Summary
+Date	Details	Due
+Wed Jan 28, 2026	Quiz Week 1-1 Quiz	due by 11pm
+Mon Feb 2, 2026	Quiz Week 2-1 Quiz	due by 11:30pm
+Wed Feb 4, 2026	Quiz Layer Protocol Quiz	due by 10:30pm
+Mon Feb 9, 2026	Quiz Application Layer-1 Quiz	due by 5:30pm
+Fri Feb 13, 2026	Assignment Homework 1	due by 11:59pm
+Wed Feb 18, 2026	Quiz Week 4-1 Quiz	due by 5:30pm
+Thu Mar 5, 2026	Assignment Project 1	due by 11:30pm
+Mon Mar 16, 2026	Assignment Project 2 Socket Program	due by 11:59pm
+Sat Mar 21, 2026	Quiz Midterm Quiz	due by 11:59pm
+Wed Apr 1, 2026	Assignment Homework 2	due by 11:59pm
+Wed Apr 15, 2026	Assignment Project 3: HTTP with GenAI	due by 11:59pm
+Mon May 4, 2026	Quiz CSMA/Taking Turns / Polling	due by 11:59pm
+Quiz Ethernet	due by 11:59pm
+Wed May 6, 2026	Quiz Switch and ARP Quiz	due by 11:59pm
+Sun May 10, 2026	Assignment Project 4	due by 11:59pm
+Tue May 12, 2026	Assignment Homework 3	due by 11:59pm
+Thu May 21, 2026	Quiz Final exam part 1	due by 11:30pm
+Assignment Final Exam Part 2	due by 11:59pm
+Assignment Roll Call Attendance
+
+Welcome to CSC 645: Computer Networks!
+ 
+
+Hello everyone, and welcome!
+
+I'm Qun Wang, and I'll be your instructor for our journey into the world of computer networks this semester.
+
+This isn't your typical theory-heavy networking course. My goal is to demystify the internet and the complex systems that connect us all. We will move beyond abstract concepts and dive into the practical, hands-on skills that power today's digital world. You will learn not just what a protocol is, but how to write code that uses it, how to analyze network traffic, and how to design and build your own network applications.
+
+Our course is built around a hands-on philosophy. Through Python programming labs, practical analysis with tools like Wireshark, and a semester-long final project of your own design, you will gain tangible skills that are directly applicable in the tech industry.
+
+I am passionate about the future of networking, especially the intersection of AI and network systems, which is the focus of my work at the CIDER LabLinks to an external site.. I'm excited to bring this cutting-edge perspective into our classroom.
+
+Let's get ready for a challenging but rewarding semester. I'm here to support you every step of the way.
+
+Course Requirements and Evaluation
+Quizzes: Each class session will include a quiz covering the material discussed. Quizzes make up 20% of your final grade.
+Attendance: Regular attendance is crucial and accounts for 10% of your final grade. Missing a class will result in losing points for both the quiz and attendance for that day.
+Homework and Projects will be released during the semester. We will have at least three homework and three projects.
+Materials: Course readings, online videos, and slides will be provided.
+Weekly Introductions: Each week's topics and objectives will be introduced on the weekly intro page.
+Discord Channel: A dedicated channel for homework and project discussions and assistance.
+Practical Tools: The course will utilize Python, Wireshark, and Unix commands for projects.
+Key Topics: DNS, ARP, ICMP, HTTPS, and more.
+Course Outline
+Weeks 1-15: Learning Journey
+Application Layer: Starting from the uppermost layer, you’ll understand protocols like HTTP and HTTPS, DNS, and more.
+Transport Layer: Delve into TCP/UDP, learning about ports, connections, and data transfer reliability.
+Network Layer: Explore IP addressing, routing algorithms, and protocols like ICMP and ARP.
+Datalink Layer: Conclude with understanding MAC addresses, ARP, VLANs, and WiFi technologies.
+Weekly Structure
+Quizzes: Assessing your understanding of the week's material.
+Attendance: Participation in class is essential.
+Projects: Practical assignments using Python, Wireshark, and Unix commands. These projects will help you apply concepts like DNS, ARP, and ICMP in real-world scenarios.
+Final Stages of the Course
+Review Sessions: Comprehensive review sessions in Week 16 to consolidate your learning.
+Final Project: A thorough project to evaluate your overall understanding of computer networks.
+Upon completion of this course, you will have a solid foundation in computer networking principles. You’ll be equipped with the knowledge to understand network functionality and the critical role of various protocols in the seamless operation of networks.
+
+Looking forward to guiding you through this exciting and informative journey into the world of computer networks!

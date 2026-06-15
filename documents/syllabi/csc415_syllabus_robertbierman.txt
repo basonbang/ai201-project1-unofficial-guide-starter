@@ -1,0 +1,468 @@
+Course Information
+Operating System Principles
+Class Number: CSC 0415 Sections 01, 02, 03     
+Semester: Fall 2025
+
+Description
+
+Prerequisites: CSC 256, CSC 340, MATH 324, and PHYS 230 with grades of C or better or graduate standing. Operating system concepts: concurrent processes, basic synchronization techniques, deadlock, memory management, file systems, security, and distributed processing. Extra fee required.
+
+CSC-415 is a difficult and challenging course that draws on knowledge learned about binary and hexadecimal numbering systems, machine instructions, data and functionality encapsulation, writing approach and results, mathematics skills, and programming skills.  The course will utilize the C programming language in a Ubuntu Linux environment for the entire semester.
+
+Course work is cumulative with assignments building on each other and the skills learned applied in the term group project.
+
+ 
+
+Schedule Information:
+
+All classes are in-person only, sections meet:
+
+Section
+Days
+Time
+Location
+Section 1	Tu/Th	12:30pm - 1:45pm	Business Building 104
+Section 2	Mo/We	9:30am - 10:45am	HSS-362
+Section 3	Mo/We	11:00am - 12:15pm	TH-432
+ 
+
+Policies
+See the Policies page incorporated here by reference
+
+ 
+
+Student Learning Outcomes:
+Introduce the student to Operating System types and concepts.
+Cover processes, threads, process synchronization, inter-process communications, CPU scheduling, memory management, virtual memory, mass storage, file systems, and device drivers.
+Understanding the difference and purpose between real-time and multi-tasking systems
+Introduce the concepts physical computing and how devices and other hardware interact with the computer and operating system.
+Discuss correct synchronization techniques for both application programs and kernel code running on various platforms.
+How to approach large project solutions.  Breaking problems down.
+Working in teams and communication.
+Functional encapsulation and interfaces.
+Documentation and explanation of approach to problems.
+ 
+
+Seeking Assistance:
+Stating you do not know something is not a sign of weakness, but a sign you understand that you have a knowledge gap.  This is expected and why we learn, in school and throughout life.
+
+You have multiple avenues to seek assistance.
+
+Ask questions in class.
+Ask questions in Slack – in the general 415 forum so others can also benefit.
+Work collaboratively with your fellow classmates.
+Attend office hours.
+Course Summary:
+Course Summary
+Date	Details	Due
+Sun Aug 24, 2025	Assignment Attendance 2025-08-25	due by 5pm
+Page Linux and Virtualization	to do: 11:59pm
+Page Discord	to do: 11:59pm
+Mon Aug 25, 2025	Assignment Attendance 2025-08-26	due by 5pm
+Quiz Policy Quiz	due by 11:59pm
+Tue Aug 26, 2025	Assignment Attendance 2025-08-27	due by 5pm
+Page 🚩 🚩 GitHub Account	to do: 11:59pm
+Wed Aug 27, 2025	Assignment Attendance 2025-08-28	due by 5pm
+Assignment Github Form Confirmation	due by 11:59pm
+Thu Aug 28, 2025	Discussion Topic 🚩 PREDICT: How will this class effect your career	due by 11:59pm
+Fri Aug 29, 2025	Page The Assignment is to read chapter 1 of the text book.	to do: 11:59pm
+Sun Aug 31, 2025	Quiz Unit 01 - Quiz	due by 11:59pm
+Mon Sep 1, 2025	Page Lecture Material - Chapter 2.1	to do: 11:59am
+Page Read chapter 2 with emphasis on sections 2.3 and 2.4	to do: 11:59am
+Assignment Attendance 2025-09-02	due by 5pm
+Assignment Assignment 1 - Using the Command Line in a Program	due by 11:59pm
+Quiz CSC 415 - Chapter 2.1 - Operating System Structures - Operating System Services	due by 11:59pm
+Quiz CSC 415 - Chapter 2.2 & 2.3 - Operating System Structures - Interface and System Calls	due by 11:59pm
+Quiz CSC 415 - Chapter 2.4 - Operating System Structures - System Services	due by 11:59pm
+Quiz CSC 415 - Chapter 2.5 - Operating System Structures - Linkers & Loaders	due by 11:59pm
+Page Lecture Material - Chapter 2.2 and 2.3	to do: 11:59pm
+Page Lecture Material - Chapter 2.4	to do: 11:59pm
+Page Lecture Material - Chapter 2.5	to do: 11:59pm
+Tue Sep 2, 2025	Assignment Attendance 2025-09-03	due by 5pm
+Wed Sep 3, 2025	Quiz CSC 415 - Chapter 2.10 - Operating System Structures - Operating System Debugging	due by 11:59pm
+Quiz CSC 415 - Chapter 2.6 - Operating System Structures - Why are applications OS Specific	due by 11:59pm
+Quiz CSC 415 - Chapter 2.7 - Operating System Structures - OS Design and Implementation	due by 11:59pm
+Quiz CSC 415 - Chapter 2.8 - Operating System Structures - OS Structure	due by 11:59pm
+Quiz CSC 415 - Chapter 2.9 - Operating System Structures - Building and Booting an Operating System	due by 11:59pm
+Page Lecture Material - Chapter 2.10	to do: 11:59pm
+Page Lecture Material - Chapter 2.6	to do: 11:59pm
+Page Lecture Material - Chapter 2.7	to do: 11:59pm
+Page Lecture Material - Chapter 2.8	to do: 11:59pm
+Page Lecture Material - Chapter 2.9	to do: 11:59pm
+Sun Sep 7, 2025	Assignment Attendance 2025-09-08	due by 5pm
+Quiz Unit 02 - Quiz - Operating System Structures	due by 11:59pm
+Mon Sep 8, 2025	Assignment Attendance 2025-09-09	due by 5pm
+Page Lecture Material - Unit 03a.01 - Process Execution (17:37)	to do: 11:59pm
+Page Lecture Material - Unit 03a.02 - Process Creation Part 1 (8:16)	to do: 11:59pm
+Page Lecture Material - Unit 03a.03 - Process Creation Part 2 (19:13)	to do: 11:59pm
+Page Lecture Material - Unit 03a.04 - Shell Intro (4:26)	to do: 11:59pm
+Page Lecture Material - Unit 03a.05 - Wait (15:52)	to do: 11:59pm
+Page Read the intro to chapter 3 along with sections 3.1, 3.2, 3.3, and 3.4. 	to do: 11:59pm
+Tue Sep 9, 2025	Assignment Attendance 2025-09-10	due by 5pm
+Wed Sep 10, 2025	Assignment Attendance 2025-09-11	due by 5pm
+Quiz CSC415 Chapter 3.1 and 3.2 - Processes - Process Concept and Scheduling (3.1, 3.2)	due by 11:59pm
+Quiz CSC415 Chapter 3.3 - Processes - Operations on Processes (3.3)	due by 11:59pm
+Quiz CSC415 Chapter 3.4 - Processes - Interprocess Communication (3.4)	due by 11:59pm
+Page Lecture Material - Unit 03b.01 - Process Concept and Scheduling (14:44)	to do: 11:59pm
+Page Lecture Material - Unit 03b.02 - Operations on Processes (17:34)	to do: 11:59pm
+Page Lecture Material - Unit 03b.03 - Inter-Process Communications (12:53)	to do: 11:59pm
+Sun Sep 14, 2025	Assignment Attendance 2025-09-15	due by 5pm
+Quiz Unit 03 - Quiz - Process Management	due by 11:59pm
+Assignment Assignment 2 - Struct and Buffer	due by 11:59pm
+Mon Sep 15, 2025	Page Read Chapter 4 except 4.5	to do: 11:59am
+Assignment Attendance 2025-09-16	due by 5pm
+Quiz CSC415 - Chapter 4.01 - Threads - Overview	due by 11:59pm
+Quiz CSC415 - Chapter 4.02 - Threads - Multicore Programming	due by 11:59pm
+Quiz CSC415 - Chapter 4.03 - Threads - Multithreading Models	due by 11:59pm
+Page Lecture Material - Threads-01 - Overview (15:17)	to do: 11:59pm
+Page Lecture Material - Threads-02 - Race Conditions (21:00)	to do: 11:59pm
+Page Lecture Material - Threads-03 - Critical Section (7:16)	to do: 11:59pm
+Tue Sep 16, 2025	Assignment Attendance 2025-09-17	due by 5pm
+Wed Sep 17, 2025	Assignment Attendance 2025-09-18	due by 5pm
+Quiz CSC415 - Chapter 4.04 - Threads - Thread Libraries	due by 11:59pm
+Quiz CSC415 - Chapter 4.06 - Threads - Threading Issues	due by 11:59pm
+Quiz CSC415 - Chapter 4.07 - Threads - Operating System Examples	due by 11:59pm
+Page Lecture Material - Threads-04 - pthread (14:36)	to do: 11:59pm
+Page Lecture Material - Threads-05 - Mutex (14:04)	to do: 11:59pm
+Sat Sep 20, 2025	Assignment Assignment 2 - Self Assessment	due by 11:59pm
+Sun Sep 21, 2025	Assignment Attendance 2025-09-22	due by 5pm
+Quiz Unit 04 - Quiz - Threads	due by 11:59pm
+Mon Sep 22, 2025	Assignment Attendance 2025-09-23	due by 5pm
+Quiz CSC415 - Chapter 6.01 - Synchronization - Background	due by 11:59pm
+Quiz CSC415 - Chapter 6.02 - Synchronization - Critical-Section	due by 11:59pm
+Quiz CSC415 - Chapter 6.04 - Synchronization - Hardware Support for Synchronization	due by 11:59pm
+Quiz CSC415 - Chapter 6.05 - Synchronization - Mutex Locks	due by 11:59pm
+Quiz CSC415 - Chapter 6.06 - Synchronization - Semaphores	due by 11:59pm
+Quiz CSC415 - Chapter 6.07 - Synchronization - Monitors	due by 11:59pm
+Quiz CSC415 - Chapter 6.08 - Synchronization - Liveness	due by 11:59pm
+Quiz CSC415 - Chapter 6.09 - Synchronization - Evaluation	due by 11:59pm
+Page Lecture Material - Semaphores 01 - Intro and Atomic Operations (23:13)	to do: 11:59pm
+Page Lecture Material - Semaphores 02 - Demo ifdef (6:57)	to do: 11:59pm
+Page Read chapter 6 (except 6.3) & Sections 7.1, 7.2, 7.3, 8.1 and 8.2	to do: 11:59pm
+Tue Sep 23, 2025	Assignment Attendance 2025-09-24	due by 5pm
+Wed Sep 24, 2025	Assignment Attendance 2025-09-25	due by 5pm
+Quiz CSC415 - Chapter 7.01 - Synchronization Examples - Classic Problems	due by 11:59pm
+Quiz CSC415 - Chapter 7.02 - Synchronization Examples - Synchronization within the Kernel	due by 11:59pm
+Quiz CSC415 - Chapter 7.03 - Synchronization Examples - POSIX Synchronization	due by 11:59pm
+Quiz CSC415 - Chapter 8.01 - Deadlocks - System Model	due by 11:59pm
+Quiz CSC415 - Chapter 8.02 - Deadlocks - Deadlock in Multithreaded Applications	due by 11:59pm
+Page Lecture Material - Semaphores 03 - Semaphore Demo (7:57)	to do: 11:59pm
+Page Lecture Material - Semaphores 04 - Deadlocks (5:15)	to do: 11:59pm
+Page Lecture Material - Semaphores 05 - Reordering Operations (10:57)	to do: 11:59pm
+Thu Sep 25, 2025	Assignment Assignment 3 - Simple Shell	due by 11:59pm
+Sun Sep 28, 2025	Assignment Attendance 2025-09-29	due by 5pm
+Quiz Unit 05 - Quiz - Semaphores	due by 11:59pm
+Assignment What is a this "thing" we call a file that the Operating System Manages?	due by 11:59pm
+Discussion Topic What should a directory entry have in it?	due by 11:59pm
+Mon Sep 29, 2025	Assignment Attendance 2025-09-30	due by 5pm
+Quiz CSC415 - Chapter 11.01 - Overview of Mass-Storage Structure	due by 11:59pm
+Quiz CSC415 - Chapter 11.03 - NVM Scheduling (not on slides or video)	due by 11:59pm
+Quiz CSC415 - Chapter 11.04 - Error Detection and Correction (not on slides or video)	due by 11:59pm
+Quiz CSC415 - Chapter 11.05 - Storage Device Management	due by 11:59pm
+Quiz CSC415 - Chapter 11.07 - Storage Attachment	due by 11:59pm
+Quiz CSC415 - Chapter 11.08 - RAID	due by 11:59pm
+Quiz CSC415 - Chapter 13.01 - File System Interface - File Concept	due by 11:59pm
+Page Lecture Material - Chapter 11 - Mass Storage Structure.01 - Overview (16:53)	to do: 11:59pm
+Page Lecture Material - Chapter 11 - Mass Storage Structure.03 - Disk Attachment (5:01)	to do: 11:59pm
+Page Lecture Material - Chapter 11 - Mass Storage Structure.04 - Storage Management (12:17)	to do: 11:59pm
+Page Lecture Material - Chapter 11 - Mass Storage Structure.05 - RAID (9:16)	to do: 11:59pm
+Page Lecture Material - Chapter 13 - File System Interface.01 - Files (5:29)	to do: 11:59pm
+Page Lecture Material - Chapter 13 - File System Interface.02 - Attributes (6:36)	to do: 11:59pm
+Page Readings and Structure for Unit 6 - File System Part 1	to do: 11:59pm
+Page ❗ Lecture Material - Chapter 11 - Mass Storage Structure.02 - Disk Structure! (13:27)	to do: 11:59pm
+Tue Sep 30, 2025	Assignment Attendance 2025-10-01	due by 5pm
+Wed Oct 1, 2025	Assignment Attendance 2025-10-02	due by 5pm
+Quiz CSC415 - Chapter 13.02 - File System Interface - Access Methods	due by 11:59pm
+Quiz CSC415 - Chapter 13.03 - File System Interface - Directory Structure	due by 11:59pm
+Quiz CSC415 - Chapter 13.04 - File System Interface - Protection	due by 11:59pm
+Quiz CSC415 - Chapter 13.05 - File System Interface - Memory Mapped Files (not on slides or video)	due by 11:59pm
+Page Lecture Material - Chapter 13 - File System Interface.03 - Operations (6:26)	to do: 11:59pm
+Page Lecture Material - Chapter 13 - File System Interface.04 - Directories (9:58)	to do: 11:59pm
+Page Lecture Material - Chapter 13 - File System Interface.05 - Mounting (3:02)	to do: 11:59pm
+Page Lecture Material - Chapter 13 - File System Interface.06 - Permission (11:39)	to do: 11:59pm
+Page Lecture Material - Chapter 13 - File System Interface.07 - Linux Permissions (21:19)	to do: 11:59pm
+Sun Oct 5, 2025	Assignment Attendance 2025-10-06	due by 5pm
+Quiz Unit 06 - Quiz - File System - Part 1 (Chapters 11, 13)	due by 11:59pm
+Mon Oct 6, 2025	Page Readings for Unit 6 - File System Unit Part 2	to do: 11:59am
+Assignment Attendance 2025-10-07	due by 5pm
+Quiz File System Structure (ch 14.01)	due by 11:59pm
+Quiz File System Structure (ch 14.02)	due by 11:59pm
+Quiz File System Structure (ch 14.03)	due by 11:59pm
+Quiz File System Structure (ch 14.04)	due by 11:59pm
+Page Lecture Material - Chapter 14 - File System Implementation.01 - File System Structure (30:12)	to do: 11:59pm
+Page Lecture Material - Chapter 14 - File System Implementation.02 - Implementation (13:04)	to do: 11:59pm
+Page Lecture Material - Chapter 14 - File System Implementation.03 - Directory Implementation (13:00)	to do: 11:59pm
+Page Lecture Material - Chapter 14 - File System Implementation.04 - Allocation Methods (38:46)	to do: 11:59pm
+Tue Oct 7, 2025	Assignment Attendance 2025-10-08	due by 5pm
+Wed Oct 8, 2025	Assignment Attendance 2025-10-09	due by 5pm
+Quiz CSC415 - Chapter 15.01 - File Systems	due by 11:59pm
+Quiz CSC415 - Chapter 15.02 - File System Mounting	due by 11:59pm
+Quiz CSC415 - Chapter 15.03 - Partitions and Mounting	due by 11:59pm
+Quiz CSC415 - Chapter 15.04 - File Sharing	due by 11:59pm
+Quiz CSC415 - Chapter 15.05 - Virtual File Systems	due by 11:59pm
+Quiz CSC415 - Chapter 15.06 - Remote File Systems	due by 11:59pm
+Quiz CSC415 - Chapter 15.07 - Consistency Semantics	due by 11:59pm
+Quiz CSC415 - Chapter 15.08 - NFS	due by 11:59pm
+Quiz File System Structure (ch 14.05)	due by 11:59pm
+Quiz File System Structure (ch 14.06)	due by 11:59pm
+Quiz File System Structure (ch 14.07)	due by 11:59pm
+Page Lecture Material - Chapter 14 - File System Implementation.05 - Free Space Management (18:16)	to do: 11:59pm
+Page Lecture Material - Chapter 14 - File System Implementation.06 - Efficiency and Performance (8:02)	to do: 11:59pm
+Page Lecture Material - Chapter 14 - File System Implementation.07 - Recovery (8:55)	to do: 11:59pm
+Page Lecture Material - Chapter 14 - File System Implementation.08 - WAFL (5:37)	to do: 11:59pm
+Page Lecture Material - Chapter 15 - File System Internals.01 - File System (13:48)	to do: 11:59pm
+Page Lecture Material - Chapter 15 - File System Internals.02 - Mounting (6:37)	to do: 11:59pm
+Page Lecture Material - Chapter 15 - File System Internals.03 - Sharing and VFS (8:39)	to do: 11:59pm
+Page Lecture Material - Chapter 15 - File System Internals.04 - Remote FS and DIS (7:44)	to do: 11:59pm
+Page Lecture Material - Chapter 15 - File System Internals.05 - Consistency Semantics (5:33)	to do: 11:59pm
+Page Lecture Material - Chapter 15 - File System Internals.06 - NFS (16:05)	to do: 11:59pm
+Sun Oct 12, 2025	Assignment Attendance 2025-10-13	due by 5pm
+Quiz Unit 06 - Quiz - File System - Part 2 (Chapters 14 and 15)	due by 11:59pm
+Mon Oct 13, 2025	Assignment Attendance 2025-10-14	due by 5pm
+Assignment Assignment 4 - Police Data with Threads	due by 11:59pm
+Tue Oct 14, 2025	Assignment Attendance 2025-10-15	due by 5pm
+Assignment Group In Class - What is a Directory Entry	due by 11:59pm
+Wed Oct 15, 2025	Assignment Attendance 2025-10-16	due by 5pm
+Sat Oct 18, 2025	Assignment Assignment 5 - Buffered I/O Read	due by 11:59pm
+Sun Oct 19, 2025	Assignment Attendance 2025-10-20	due by 5pm
+Assignment File System Design	due by 11:59pm
+Mon Oct 20, 2025	Assignment Attendance 2025-10-21	due by 5pm
+Tue Oct 21, 2025	Assignment Attendance 2025-10-22	due by 5pm
+Wed Oct 22, 2025	Assignment Attendance 2025-10-23	due by 5pm
+Sun Oct 26, 2025	Assignment Attendance 2025-10-27	due by 5pm
+Mon Oct 27, 2025	Assignment Attendance 2025-10-28	due by 5pm
+Quiz CSC 415 - Chapter 9.1 - Main Memory - Background	due by 11:59pm
+Quiz CSC 415 - Chapter 9.2 - Main Memory - Contiguous Memory Allocation	due by 11:59pm
+Page Lecture Material - Chapter 9 - Main Memory Part 1 - Background (26:27)	to do: 11:59pm
+Page Lecture Material - Chapter 9 - Main Memory Part 2 - Contiguous Memory Allocation (8:03)	to do: 11:59pm
+Page Lecture Material - Chapter 9 - Main Memory Part 3a - Paging (22:53)	to do: 11:59pm
+Page Readings and Structure for Unit 7 - Main and Virtual Memory	to do: 11:59pm
+Tue Oct 28, 2025	Assignment Attendance 2025-10-29	due by 5pm
+Wed Oct 29, 2025	Assignment Attendance 2025-10-30	due by 5pm
+Quiz CSC 415 - Chapter 9.3 - Main Memory - Paging	due by 11:59pm
+Quiz CSC 415 - Chapter 9.4 - Main Memory - Structure of the Page Table	due by 11:59pm
+Quiz CSC 415 - Chapter 9.5 - Main Memory - Swapping	due by 11:59pm
+Quiz CSC 415 - Chapter 9.6 - Main Memory - Examples - Intel	due by 11:59pm
+Page Lecture Material - Chapter 9 - Main Memory Part 3b - Paging (19:45)	to do: 11:59pm
+Page Lecture Material - Chapter 9 - Main Memory Part 4 - Structure of Page Table (17:25)	to do: 11:59pm
+Page Lecture Material - Chapter 9 - Main Memory Part 5 - Swapping (16:51)	to do: 11:59pm
+Page Lecture Material - Chapter 9 - Main Memory Part 6 - Intel Examples (14:43)	to do: 11:59pm
+Sun Nov 2, 2025	Assignment Attendance 2025-11-03	due by 4pm
+Quiz Unit 07 - Quiz - Main Memory - Part 1 (Chapter 9)	due by 11:59pm
+Mon Nov 3, 2025	Assignment Attendance 2025-11-04	due by 4pm
+Quiz CSC 415 - Chapter 10.0 - Virtual Memory - Prologue	due by 11:59pm
+Quiz CSC 415 - Chapter 10.1 - Virtual Memory - Background	due by 11:59pm
+Quiz CSC 415 - Chapter 10.2 - Virtual Memory - Demand Paging	due by 11:59pm
+Assignment File System Milestone One	due by 11:59pm
+Page Lecture Material - Chapter 10 - Virtual Memory Part 1 - Prologue (14:39)	to do: 11:59pm
+Page Lecture Material - Chapter 10 - Virtual Memory Part 2 - Background (23:45)	to do: 11:59pm
+Page Lecture Material - Chapter 10 - Virtual Memory Part 3 - Demand Paging (26.09)	to do: 11:59pm
+Page Readings for Unit 7 Part 2 - Virtual Memory	to do: 11:59pm
+Tue Nov 4, 2025	Assignment Attendance 2025-11-05	due by 4pm
+Wed Nov 5, 2025	Assignment Attendance 2025-11-06	due by 4pm
+Quiz CSC 415 - Chapter 10.3 and 10.4 - Virtual Memory - COW & Page Replacement	due by 11:59pm
+Quiz CSC 415 - Chapter 10.5 - Virtual Memory - Allocation of Frames	due by 11:59pm
+Quiz CSC 415 - Chapter 10.6 - Virtual Memory - Thrashing	due by 11:59pm
+Quiz CSC 415 - Chapter 10.8 and 10.9 - Virtual Memory - Allocationg Kernel Memory and Other Considerations	due by 11:59pm
+Page Lecture Material - Chapter 10 - Virtual Memory Part 4 - COW and Page Replacement (24:52)	to do: 11:59pm
+Page Lecture Material - Chapter 10 - Virtual Memory Part 5 - Allocation of Frames (9:26)	to do: 11:59pm
+Page Lecture Material - Chapter 10 - Virtual Memory Part 6 - Thrashing (13:47)	to do: 11:59pm
+Page Lecture Material - Chapter 10 - Virtual Memory Part 7 - Allocating Kernel Memory and Other Considerations (19:36)	to do: 11:59pm
+Sun Nov 9, 2025	Quiz Unit 07 - Quiz - Virtual Memory - Part 2 (Chapter 10)	due by 11:59pm
+Mon Nov 10, 2025	Quiz CSC415 - Chapter 5.01 - Basic Concepts	due by 11:59pm
+Quiz CSC415 - Chapter 5.02 - Scheduling Criteria	due by 11:59pm
+Quiz CSC415 - Chapter 5.03 - Scheduling Algorithms	due by 11:59pm
+Page Lecture Material - CPU Scheduling Part 1 (20:27)	to do: 11:59pm
+Page Readings for Chapter 5	to do: 11:59pm
+Tue Nov 11, 2025	Assignment Attendance 2025-11-12	due by 4pm
+Page FileSystem - Milestone Two	to do: 11:59pm
+Wed Nov 12, 2025	Assignment Attendance 2025-11-13	due by 4pm
+Quiz CSC415 - Chapter 5.04 - Thread Scheduling	due by 11:59pm
+Quiz CSC415 - Chapter 5.05 - Multi-Processor Scheduling	due by 11:59pm
+Quiz CSC415 - Chapter 5.06 - Real-Time CPU Scheduling	due by 11:59pm
+Quiz CSC415 - Chapter 5.07 - Operating-System Examples	due by 11:59pm
+Quiz CSC415 - Chapter 5.08 - Algorithm Evaluation	due by 11:59pm
+Page Lecture Material - CPU Scheduling Part 2 (19:59)	to do: 11:59pm
+Sun Nov 16, 2025	Assignment Attendance 2025-11-17	due by 4pm
+Quiz Unit 08 - Quiz - CPU Scheduling (Chapter 5)	due by 11:59pm
+Mon Nov 17, 2025	Assignment Attendance 2025-11-18	due by 4pm
+Tue Nov 18, 2025	Assignment Attendance 2025-11-19	due by 4pm
+Wed Nov 19, 2025	Assignment Attendance 2025-11-20	due by 4pm
+Mon Nov 24, 2025	Page Lecture Material - Device Drivers - Details (33:45)	to do: 11:59pm
+Page Lecture Material - Device Drivers - Introduction (13:51)	to do: 11:59pm
+Page Lecture Material - Device Drivers - Pi Demo (19:12)	to do: 11:59pm
+Sun Nov 30, 2025	Assignment Attendance 2025-12-01	due by 4pm
+Mon Dec 1, 2025	Assignment Attendance 2025-12-02	due by 4pm
+Quiz CSC415 - Chapter 12.01 - Overview	due by 11:59pm
+Quiz CSC415 - Chapter 12.02 - I/O Hardware	due by 11:59pm
+Quiz CSC415 - Chapter 12.03 - Application I/O Interface	due by 11:59pm
+Page Lecture Material - Chapter 12 - Device I/O Section 1 - Overview (6:05)	to do: 11:59pm
+Page Lecture Material - Chapter 12 - Device I/O Section 2 - I/O Hardware (29:00)	to do: 11:59pm
+Page Lecture Material - Chapter 12 - Device I/O Section 3 - Application (6:01)	to do: 11:59pm
+Page Readings for Chapter 12 – I/O Systems	to do: 11:59pm
+Tue Dec 2, 2025	Assignment Attendance 2025-12-03	due by 4pm
+Wed Dec 3, 2025	Assignment Attendance 2025-12-04	due by 4pm
+Quiz CSC415 - Chapter 12.04 - Kernel I/O Subsystem	due by 11:59pm
+Quiz CSC415 - Chapter 12.05 - Transforming I/O Requests	due by 11:59pm
+Quiz CSC415 - Chapter 12.06 - Streams	due by 11:59pm
+Quiz CSC415 - Chapter 12.07 - Performance	due by 11:59pm
+Page Lecture Material - Chapter 12 - Device I/O Section 4 - Kernel I/O (23:31)	to do: 11:59pm
+Page Lecture Material - Chapter 12 - Device I/O Section 5 - Transforming I/O (6:16)	to do: 11:59pm
+Page Lecture Material - Chapter 12 - Device I/O Section 6 and 7 - Streams and Performance (9:35)	to do: 11:59pm
+Assignment Group Submission- Files System Project	due by 11:59pm
+Thu Dec 4, 2025	Assignment File System Project - Individual Report	due by 11:59pm
+Sun Dec 7, 2025	Assignment Attendance 2025-12-08	due by 4pm
+Assignment Assignment 6 - Coding A Device Driver	due by 11:59pm
+Quiz Unit 09 - Quiz I/O Systems (Chapter 12)	due by 11:59pm
+Mon Dec 8, 2025	Assignment Attendance 2025-12-09	due by 4pm
+Tue Dec 9, 2025	Assignment Attendance 2025-12-10	due by 4pm
+Wed Dec 10, 2025	Assignment Attendance 2025-12-11	due by 4pm
+Fri Dec 12, 2025	Discussion Topic 🚩 PREDICT: How will this class effect your career REFLECTION	due by 11:59pm
+Tue Dec 16, 2025	Quiz Final Exam - Part 1	due by 11:59pm
+Fri Dec 19, 2025	Quiz Final Exam - Part 2	due by 11:59pm
+Assignment Assignment Grade Shift	 
+Assignment Last Day of Classes	 
+Assignment Roll Call Attendance
+
+Policies
+Home Work Policy
+Homework is due at the assigned date and time.  Homework may be turned in up to 4 days late, with each day reducing your maximum grade by 5%
+
+When Submitted the Maximum Grade is: 
+
+If the homework is submitted On Time the maximum grade is 100%
+If the homework is less than 24 hours late the maximum grade is 95%
+If the homework is at or more than 24 hours late but less than 48 hours late the maximum grade is 90%
+If the homework is at or more than 48 hours late but less than 72 hours late the maximum grade is 85%
+If the homework is at or more than 72 hours late but less than 96 hours late the maximum grade is 80%
+If the homework is at or more than 96 hours late the grade is a 0%.
+ 
+
+Assignment Submission & Grading
+If for any reason your application fails to compile with make (this includes, but not limited to failures to update the Makefile, incorrect file names, compilation errors, etc.) there will be a minimum 25% penalty
+
+Failure to submit you assignment (the required material, usually the writeup PDF) to Canvas results in no submission and a grade of 0 for the assignment, regardless of what is submitted in github.
+
+No changes to github are allowed after you submit to Canvas.  That submission to Canvas is an indication that your assignment is complete.
+
+Attendance and Participation
+Attendance and participation are critical in this class and is a requirement and accounts for 10% of your grade.
+
+This course has both asynchronous components as well as synchronous - live in-person classes.  There are activity checks, you are expected to complete them as specified and to attend the class meetings.  You need to be an active participant in the class, that means asking question, responding promptly to in class questions and contributing in forums and group assignments.
+
+This also includes your group projects, it is your responsibility to stay in touch and work with your team.
+
+Since we are back in person, remote attendance will only be allowed on a limited and exceptional basis and must be requested in advance.  Failure to attend in person can result in you being dropped from the course.
+
+Attending the class via Zoom will only be allowed for approved scheduled absences (such as attending a conference representing SFSU).   Such requests must be made at least 1 week in advance.  Lateness, illness, transportation issues in which you do not attend in person will be marked as absent and you will have the opportunity to confer with your classmates and/or watch the recorded videos after the class.
+
+Exceptions may be made for doctor ordered quarantines and medical necessity on a case-by-case basis.
+
+We will be using PollEverywhere to take attendance.  Please see https://support.polleverywhere.com/hc/en-us/articles/21342777859099-Getting-Started-with-Attendance-Management-for-StudentsLinks to an external site. on how to use PollEverywhere.
+
+Points are awarded each day you attend and check in with PollEverywhere on time.  There is a 50% penalty on attendance points if you are late (as recorded in PollEverywhere).  More than 5 minutes after the start of the class is considered late.
+
+Missing 20% or more of the classes without prior approval will result in an F/WU for the course regardless of all other grades.
+
+Failure to attend the first week of classes will result in being dropped from the class.
+
+ 
+
+ 
+
+Examination Policy
+There are no makeups for any of the exams except for exceptional situations approved in advance.
+
+ 
+
+How to Appeal a Grade
+If you have a question about grading, please email me or setup office hours for review.
+
+If that is not satisfactory, How to appeal a grade: https://bulletin.sfsu.edu/policies-procedures/appeals-process/Links to an external site..
+
+ 
+
+Personal Identity Policy
+All humans have the right to be addressed in accordance with their personal identity preferences. In some cases, you may prefer to be called by a name other than what is listed on the course roster. For example, you want to be called the shortened version of a name (for example, “Alex” as opposed to “Alexander/Alexandra”). Sometimes this means that though your given name might be coded as one gender, you identify as another, and use a different name and pronoun. In all cases, faculty will use the name you provide, rather than the name provided by the campus database. If you have reason to believe that your instructor may refer to you by an incorrect name or pronoun, please inform your instructor as to how you would prefer to be addressed (for example: she, he, they, ze, etc.) right away.
+
+ 
+
+Syllabus Change Policy
+Disclaimer: This syllabus is subject to change.
+
+ 
+
+Inclusive Language Commitment
+I and this course is committed to making the language we use inclusive, meaningful, and respectful. The goal is to remove and replace non-inclusive language from our vocabulary to reflect greater scientific accuracy and represent our global ecosystem.
+
+I will review and utilize terminology both old and new and show how the industry is taking the concerted effort to make the language we use more scientifically accurate, inclusive and respectful.  It is your generation that will see this through to fruition.
+
+I would like to acknowledge Arm Education for their commitment to inclusive language and allowing me to paraphrase their commitment.
+
+Arm is committed to making the language we use inclusive, meaningful, and respectful. Our goal is to remove and replace non-inclusive language from our vocabulary to reflect our values and represent our global ecosystem.
+
+Arm is working actively with our partners, standards bodies, and the wider ecosystem to adopt a consistent approach to the use of inclusive language and to eradicate and replace offensive terms. We recognize that this will take time. This course may contain references to non-inclusive language; it will be updated with newer terms as those terms are agreed and ratified with the wider community.
+
+ 
+
+Diversity, Inclusion, Decorum, and Safe Environment Policy
+In addition to teaching the technical skills necessary for programming, we will also teach the social implications of computer science.  Socially responsible computing gives us a context in which we make design decisions and choices.  
+
+Not everyone will have the same ideas, choices, priorities, beliefs, background, and experiences.  Diversity gives us the opportunity to see problems and situations in ways that we may have never thought of on our own and provides way to avoid unintended bias. 
+
+We will directly address the contributions of underrepresented groups to the field, which are often overlooked.
+
+We are all responsible for contributing to our own learning as well as the learning experiences of others. Thus, it is expected that we will maintain a professional decorum and an environment where everyone feels safe discussing, examining, and responding to the content of the course. Some of these discussions may be triggering and uncomfortable for some individuals, our hope is that all discussions are done in a respectful manner.  We strongly affirm the value of diversity of human lives as an enrichment of the learning community. The classes will be a mutually respectful, collaborative learning environment.
+
+Discrimination, disrespect, bullying, harassment, or threats of any kind, especially on the basis of race, ethnicity, religion, socioeconomic status, ability, gender, or sexual orientation will not be tolerated under any circumstances. Should someone make you feel uncomfortable, disrespected, or unsafe in any way, please let the instructor know immediately via email or by attending Instructor office hours.
+
+ 
+
+Plagiarism Policy
+In this course, we will be employing software from TurnItIn.com as a tool for learning how to correctly cite resources. Turnitin.com is useful in helping to determine whether or not a writer is relying too heavily upon sources and whether a writer has given appropriate credit to an author or source. Students will be assigned a username and will be expected to submit their papers on the assigned due date to Turnitin.com, which in turn produces an “originality” report. This report will compare the student’s paper to content on the Web, to the Turnitin.com database of previously submitted papers, and to databases of common full-text journals. In creating an account, students agree that by taking this course, all required papers will be reviewed by Turnitin.com and acknowledge that their papers will be included as source documents in the Turnitin.com reference database solely for the purpose of detecting plagiarism. All identifiers (student name, ID #, etc.) will be removed from the paper before it is uploaded into Turnitin.com. Use of Turnitin.com services is subject to the Terms and Conditions of Use, which are posted on the Turnitin.com website.
+
+Copying code from another student, the internet, using ChatGPT or similar AI systems to generate code or purporting that code you did not write as your own are all examples of plagiarism.
+
+In addition the Computer Science plagiarism policy is part of this syllabus https://cs.sfsu.edu/undergrads/student-policiesLinks to an external site.
+
+If you are suspected of plagiarism, you will receive a grade of 1 for an assignment.  In addition you may also be reported to the CS Department and to the Office of Student Conduct.   You can setup office hours if you wish to dispute the grade.  You have 10 days from the time the grades are posted on an assignment to meet with me to challenge the grade.
+
+Assignments and exams are individual (unless explicitly stated otherwise), but we encourage collaboration with course staff and classmates.  However, you must be careful how you collaborate.  Use the table below as a reference and guideline.
+
+Course Instructor	Classmates	Other People	Authoritative Websites (like the Linux Manual Pages)	AI Chatbots
+Discuss concepts with:	Yes	Yes	Yes	Yes	No
+Acknowledge collaboration with:	Yes	Yes	Yes	Yes	Yes
+Expose code/solutions to:	Yes	No	No	N/A	No
+Copy code/Solutions from:	No (unless stated otherwise)	No	No	No	No
+Table Adapted from Rutgers University
+
+Attendance.png  Attendance & Participation
+Attendance and participation are critical in this class and is a requirement and accounts for 10% of your grade.
+
+This course has both asynchronous components as well as synchronous - live in-person classes.  There are activity checks, you are expected to complete them as specified and to attend the class meetings.  You need to be an active participant in the class, that means asking question, responding promptly to in class questions and contributing in forums and group assignments.
+
+This also includes your group projects, it is your responsibility to stay in touch and work with your team.
+
+Since we are back in person, remote attendance will only be allowed on a limited and exceptional basis and must be requested in advance.  Failure to attend in person can result in you being dropped from the course.
+
+Attending the class via Zoom will only be allowed for approved scheduled absences (such as attending a conference representing SFSU).   Such requests must be made at least 1 week in advance.  Lateness, illness, transportation issues in which you do not attend in person will be marked as absent and you will have the opportunity to confer with your classmates and/or watch the recorded videos after the class.
+
+Exceptions may be made for doctor ordered quarantines and medical necessity on a case-by-case basis.
+
+We will be using PollEverywhere to take attendance.  Please see https://support.polleverywhere.com/hc/en-us/articles/21342777859099-Getting-Started-with-Attendance-Management-for-StudentsLinks to an external site. on how to use PollEverywhere.
+
+Points are awarded each day you attend and check in with PollEverywhere on time.  There is a 50% penalty on attendance points if you are late (as recorded in PollEverywhere).  More than 5 minutes after the start of the class is considered late.
+
+Missing 20% or more of the classes without prior approval will result in an F/WU for the course regardless of all other grades.
+
+Failure to attend the first week of classes will result in being dropped from the class.
+
+Zoom Info
+I may record the class and if there is a specific reason you can not make class and you contact me ahead of time I may allow you to attend via zoom on a limited basis.  This will not be for normal absences, but for other school related activities approved in advance.
+If you do join, you will be in a waiting room and I will then admit those that I have approved in advance.
+You must login into ZOOM first at https://sfsu.zoom.usLinks to an external site.
+Use the Zoom link in Canvas
+Make sure your first and last name is displayed in the participants window when you join the meeting
+
+These will be the SAME LINKS for all our live session classes.
+

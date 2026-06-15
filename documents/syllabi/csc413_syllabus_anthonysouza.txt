@@ -1,0 +1,197 @@
+Course Information
+Course Number
+
+CSC 413
+
+Course Name
+
+Software Development
+
+Number of Units
+
+3
+
+Prerequisite
+
+CSC220 with a C or better
+
+Schedule
+
+2  hours a week.
+
+Description
+Design and development of modern software applications. Object-oriented techniques: encapsulation, inheritance, and polymorphism as mechanisms for data design and problem solution. Software design, debugging, testing, and UI design. Software maintenance. Software development tools.
+
+Required Textbook
+None
+
+Recommended Material
+Core Java- Volume ILinks to an external site.Links to an external site.
+
+Effective Java - Third EditionLinks to an external site.
+
+Design Patterns: Elements of Reusable Object-Oriented SoftwareLinks to an external site.
+
+Java For BeginnersLinks to an external site.
+
+Computer/IDE
+It is ”required” that you have a computer that can run JetBrains IntelliJ 2021.0.0 or later with JavaSE technology. A laptop is recommended. Computers are available for student use in the CS Undergrad Lab. For more information on system requirements, please see:
+
+IntelliJ IDEA DownloadLinks to an external site.
+
+Note that it states ”required”, what this means is I do not mind if you use a different IDE, but all projects and assignments are only assumed to work with IntelliJ IDEA. Use other IDEs at your own risk.
+
+IntelliJ’s Ultimate Edition requires a license. A free license can be granted to students for 1 year. When that 1 year is up you are allowed to renew this license as well. Student Licenses can be found here: Student License.Links to an external site.
+
+CS Undergrad Lab
+Computers are available for use in the Computer Science Lab (SCI 254). Your lab door passcode is the last 6 digits of your student ID Number (or the lazy code of 9-8-7-6-5-4). Ask a fellow student in the lab how to log onto the system. Contact the CS department (TH 906) if you have trouble.
+
+Class Discord Server
+This class will use a Discord server for its out-of-class communication. The server is dedicated to this course only. To join you will need to complete the following steps:
+
+Click the invite link on Canvas's Admin Page to join the classes’ Discord server.
+You will need a Discord account that has a verified email. You DO NOT need to use your school email. If you already have a Discord account this can be used as well
+
+Once you have joined the server, you will send a direct message (a dm ) to the roster-bot. The message MUST have the following format:
+!reg csc413 schoolemail
+You are REQUIRED to use your school email to register for the class Discord server. No other email will be accepted. This does NOT mean your Discord account has to be created with your school email.
+
+If you use the above command correctly (and the bot works) you will then be assigned the role of Student.
+GitHub
+This class will use GitHub to manage our class assignments. Students are expected to have made GitHub accounts before starting the first assignment. You are encouraged to brush up on your GitHub skills.
+
+Class Website
+Canvas WebsiteLinks to an external site.
+
+Exams
+There will be no exams for this course. Instead, we will have a series of quizzes. These quizzes will be given at the end of each unit and will test you on the material presented in that unit. Students are responsible for reviewing ALL material posted in each unit.
+
+Final Exam
+There will be no final exam. In lieu of the exam. Each student will present their game(s) to the class. More on this later when the term project is started.
+
+Teaching Methods
+Lectures, Readings, Programming Assignments, Exams
+
+Learning Outcomes
+Knowledge of object-oriented programming principles.
+Knowledge basic software design pattern.
+Knowledge and practice of the software development process.
+Introduce the student to integrated development environments.
+Expose the student to other software development tools including debuggers, code profilers and build tools.
+Students will design and develop several applications that increase in size.
+Students will practice making good software design choices to the best of their ability.
+Attendance
+You are expected to attend all class sessions, and you are responsible for all material covered in class. Material will be covered in class that is not in the textbook. You must make arrangements with your classmates for lecture notes if you miss a class. The instructor may not provide lecture notes.
+
+Class Participation
+A small portion of your grade is dependent on your participation in the course and communication through Discord. Full disclosure, most of the 5% is solely dependent on your participation in the class Discord. Not being present in Discord will result in receiving a 0 for class participation. You are required to join the Discord server within the first week of the semester. Failure to do so results in a loss of participation grade. You are encouraged to ask questions about the assignments, the lectures, the term project, or anything related to the course in Discord. If a student goes above and beyond when using the class Discord channel, extra credit can be given.
+
+Assignments
+In this class you will do 2 to 3 small to medium sized projects. These assignments will be partially completed and you will be expected to fill in the missing logic to get them working. These assignments will be aimed at certain programming styles and/or design patterns.
+
+Term Project
+Each student will implement a Term Project that will start after the completion of the third assignment. This project will comprise designing and implementing the Tank Wars game in Java. The term project will be completed as an individual project. There will be no teams!
+
+Class Policy
+Missing Class
+If you miss class, you are responsible for all information covered in class, including updated and additional class notes or project specifications. Please obtain the contact information of fellow students;
+
+Appealing Grades
+If you would like to appeal your programming project or test grades, you must do so within two weeks from the date the project or test is returned to you. There will be no exception, even if you miss those classes. You are responsible for obtaining your grades (they will be kept as up-to-date as possible on Canvas).
+
+Review your grade first!
+If a mistake is found, please send an email to the instructor. PLEASE DO NOT USE THE CANVAS MESSAGE SYSTEM. DO NOT send Discord messages. They may get lost.
+Use the following subject in the given email:
+CSC 413 Section N AssignmentName Regrade request.
+
+Where N is the section number.
+
+AssignmentName is the name of the assignment you are requesting to be reviewed.
+
+In the body of the email please respectfully explain why you think there is a grading mistake. Do your best to be concise on the reason and precise on the location of the mistake
+Failure to follow the above instructions could delay your regrade request or cause it to be missed completely. You have been warned.
+
+          No code on GitHub will be reviewed, only code at the time of the submission will be reviewed.
+
+Late Assignments
+Late project penalty (based on the GitHub commit timestamp): You may submit your project up to 48 hours late. Anything submitted within this time window is only able to earn 75% of the credit. There is a hard cutoff of midnight - one second late will be considered late.
+
+Non-working Assignments
+Project Grading: If the grader cannot build/compile your program, the maximum grade you can receive is 50%. Source code will still be inspected to ensure enough work has been done to earn a grade for the assignments. Minimal work will receive a 0 for the assignment.
+
+Grading
+Item	Weight
+Assignment 1 (Calculator /w GUI)
+
+10 %
+
+Assignment 2 (Interpreter)
+
+15%
+
+Assignment 3 (Chat Client w/ WebSockets)
+
+15%
+
+Tank Game (2D Game in Java)
+
+25%
+
+Quizzes
+
+20%
+
+Attendance
+
+10%
+
+Class Participation
+
+5%
+
+Grade Distribution - Subject to change throughout the semester
+Range	Letter Grade
+95+
+
+A
+
+90-94
+
+A-
+
+85-89
+
+B+
+
+80-85
+
+B
+
+75-79
+
+C+
+
+70-74
+
+C
+
+60-69
+
+D+
+
+0-59
+
+F
+
+Other Course Information
+Semester drop and withdrawal deadlines and procedures are provided on the University Calendar at Academic CalendarLinks to an external site.
+The University course repeat policy is at Repeat PolicyLinks to an external site.
+Student privacy rights can be found at Student Privacy RightsLinks to an external site.
+Please be aware of our IT resource's acceptable use policy, posted on our site at IT Acceptable Use Links to an external site.PolicyLinks to an external site.
+Academic Cheating and Plagiarism
+Cheating and plagiarism are severe offenses and are treated as such. Please see CS Plagiarism Links to an external site.PolicyLinks to an external site. for department policies on cheating and plagiarism. Cheating or plagiarizing can result in a failing grade in the course and expulsion from school.
+
+ 
+
+Disability Access
+Students with disabilities who need reasonable accommodations are encouraged to contact the instructor. The Disability Programs and Resource Center (DPRC) is available to facilitate the reasonable accommodations process. The DPRC is located in the Student Services Building and can be reached by telephone (voice/TTY 415-338-2472) or by email (dprc@sfsu.edu). http://www.sfsu.edu/ dprc
