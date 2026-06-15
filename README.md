@@ -14,6 +14,8 @@
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
+This system covers student-generated knowledge about CS courses at SFSU: professor teaching styles, exam difficulty, workload, which electives to take and in what order, and general course-taking strategy. This knowledge is valuable because it reflects real student experience rather than administrative descriptions — but it's hard to find through official channels because it lives in ephemeral spaces: Discord servers you have to be invited to, Reddit threads that get buried, Rate My Professor entries without course context, and syllabi that aren't publicly archived. A new student or prospective transfer has no single place to look. This system mimics the experience of asking an upperclassman for advice: it retrieves the right fragment of collective memory for whatever question you're trying to answer.
+
 ---
 
 ## Document Sources
@@ -24,16 +26,18 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | CSC 648 syllabus — Souza | Syllabus (TXT) | `documents/syllabi/csc648_syllabus_anthonysouza.txt` |
+| 2 | CSC 415 syllabus — Bierman | Syllabus (TXT) | `documents/syllabi/csc415_syllabus_robertbierman.txt` |
+| 3 | CSC 413 syllabus — Souza | Syllabus (TXT) | `documents/syllabi/csc413_syllabus_anthonysouza.txt` |
+| 4 | CSC 340 syllabus — Duc Ta | Syllabus (PDF) | `documents/syllabi/csc340_syllabus_ducta.pdf` |
+| 5 | CSC 317 syllabus — Souza | Syllabus (PDF) | `documents/syllabi/csc317_syllabus_anthonysouza.pdf` |
+| 6 | CSC 510 syllabus — Ortiz | Syllabus (PDF) | `documents/syllabi/csc510_syllabus_joseortiz.pdf` |
+| 7 | CSC 648 Discord channel export | Discord export (MD) | `documents/discord/csc648_discord.md` |
+| 8 | CSC 600 Discord channel export (2024) | Discord export (MD) | `documents/discord/csc600_discord_2024.md` |
+| 9 | CSC 415 Discord channel export | Discord export (MD) | `documents/discord/csc415_discord.md` |
+| 10 | CSC 413 Discord channel export | Discord export (MD) | `documents/discord/csc413_discord.md` |
+| 11 | class-reviews Discord channel (2024) | Discord export (MD) | `documents/discord/class-reviews_discord_2024.md` |
+| 12 | CSC 675 Discord channel export | Discord export (MD) | `documents/discord/csc675_discord.md` |
 
 ---
 
